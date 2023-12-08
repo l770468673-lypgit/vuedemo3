@@ -3,19 +3,31 @@
 <template>
   <div>
     <HelloWorld />
-    <IndexWeb/>
+    <TopWeb />
+    <RightWebs />
+    <LeftWebs />
+    <!-- <RightChiled/> -->
+
+
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import IndexWeb from'./components/IndexWeb.vue'
+import TopWeb from './components/TopWeb.vue'
+import LeftWebs from './components/LeftWebs.vue';
+import RightWebs from './components/RightWebs.vue';
+
+
 export default {
   name: 'App',
   components: {
+    TopWeb,
     HelloWorld,
-    IndexWeb
-  } ,
+    LeftWebs,
+    RightWebs,
+    // RightChiled
+  },
 
 }
 </script>
