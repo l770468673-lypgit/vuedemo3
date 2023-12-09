@@ -1,6 +1,6 @@
 <template>
-    <div class="righttchile">
-        <p>右侧侧子页面2</p>
+    <div class="righttchile">  
+           <p>右侧侧子页面2</p>
     </div>
 </template>
 

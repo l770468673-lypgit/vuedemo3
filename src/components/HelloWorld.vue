@@ -80,6 +80,7 @@
     
     <div>--------- keep-alive 组件保持存活---</div>
     <div>--------- 异步组件 ---</div>
+    <div>--provide(){},传递数据，从一级页面传递到三级甚至四级页面， 三级四级页面通过 inject 接受数据</div>
   </div>
 </template> 
 <script >
