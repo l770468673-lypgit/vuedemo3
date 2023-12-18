@@ -21,7 +21,8 @@ export default{
     watch:{ // 实时监听变化
         startsearch(newValus){
             this.$emit("child2ParentSearch",newValus);
-        }
+        },
+         
     },
     data(){
         return{
